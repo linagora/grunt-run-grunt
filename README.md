@@ -122,6 +122,9 @@ writeShell: null,
 
 // don't fail
 expectFail: false
+
+// pass args to append to the command line 
+args: {}
 ```
 
 #### Process result object

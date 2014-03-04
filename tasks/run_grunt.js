@@ -40,7 +40,8 @@ var baseOptions = {
 	concurrent: require('os').cpus().length,
 	expectFail: false,
 	parser: null,
-	env: {}
+	env: {},
+  args: {}
 };
 
 module.exports = function (grunt) {
