@@ -40,6 +40,8 @@ var baseOptions = {
 	concurrent: require('os').cpus().length,
 	expectFail: false,
 	parser: null,
+  stdout: null,
+  stderr: null,
 	env: {},
   args: {}
 };
