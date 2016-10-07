@@ -7,7 +7,7 @@
 Console output capture is not reliable on Windows as Node.js there doesn't always flush buffers before exiting. Until this is fixed Windows users should use the Vagrantfile instead (see below). :bangbang:
 
 ## Getting Started
-This plugin requires Grunt `~0.4.1`
+This plugin requires Grunt `>=0.4.0`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -27,7 +27,7 @@ grunt.loadNpmTasks('grunt-run-grunt');
 
 Use the `run_grunt` task to spawn new processes that run `grunt-cli` and optionally do work on the result data. It will use the global `$ grunt` command, just like when you'd run grunt manually.
 
-Main use-case is testing your gruntfile or grunt-plugins, but it is also suited for creative use of gruntfiles and grunt-cli output. 
+Main use-case is testing your gruntfile or grunt-plugins, but it is also suited for creative use of gruntfiles and grunt-cli output.
 
 For example use it to verify the final output of various reporters and formatters. Alternately parse the output of the "$grunt --help" command and work with the list of tasks and aliases (without instrumenting the gruntfile in any way).
 
@@ -62,7 +62,7 @@ grunt.initConfig({
 ```
 ### Options
 
-#### grunt-cli options 
+#### grunt-cli options
 
 ```
 help: boolean,
@@ -123,7 +123,7 @@ writeShell: null,
 // don't fail
 expectFail: false
 
-// pass args to append to the command line 
+// pass args to append to the command line
 args: {}
 ```
 
@@ -194,4 +194,3 @@ Licensed under the MIT license.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Bartvds/grunt-run-grunt/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
