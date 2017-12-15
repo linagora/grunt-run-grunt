@@ -1,18 +1,18 @@
 {
-  "name": "grunt-run-grunt",
+  "name": "@linagora/grunt-run-grunt",
   "description": "Grunt task to run Gruntfiles in a child process. Gruntception!",
-  "version": "0.1.3",
-  "homepage": "https://github.com/Bartvds/grunt-run-grunt",
+  "version": "0.1.4",
+  "homepage": "https://github.com/linagora/grunt-run-grunt",
   "author": {
     "name": "Bart van der Schoor",
     "url": "https://github.com/Bartvds"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bartvds/grunt-run-grunt"
+    "url": "https://github.com/linagora/grunt-run-grunt"
   },
   "bugs": {
-    "url": "https://github.com/Bartvds/grunt-run-grunt/issues"
+    "url": "https://github.com/linagora/grunt-run-grunt"
   },
   "licenses": [
     {
